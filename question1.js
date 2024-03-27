@@ -5,7 +5,7 @@ Write a JavaScript function to get an array and to read the first element of an 
 
 */
 
-const numList = [2,2,3,4,5,6,7,8,9,0];
+const numList = [4,2,3,4,5,6,7,8,9,0];
 
 let fNum= numList[0];
 let flag=0;
