@@ -11,7 +11,6 @@ let freqItem=0;
 
 for (let i = 0; i < itemList.length; i++) {
     let element = itemList[i];
-    console.log("hi"+element)
     let flag=0;
 
     for (const j of itemList) {
@@ -19,7 +18,7 @@ for (let i = 0; i < itemList.length; i++) {
         if(j===element){
             flag++;
             if(maxCount<flag){
-                maxCount=flag
+                maxCount=flag;
                 freqItem=j;
             } 
         }
@@ -27,4 +26,4 @@ for (let i = 0; i < itemList.length; i++) {
    }
     
 }
-console.log("Most frequent item in the array is"+freqItem);
+console.log("Most frequent item in the array is "+freqItem);

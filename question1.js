@@ -16,7 +16,6 @@ if (fNum==1|| fNum==0) {
 else{
 
     for (let i = 2; i < fNum; i++) {
-        console.log(fNum%i);
     
         if( fNum%i ==0 )
         {
